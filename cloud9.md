@@ -1,7 +1,7 @@
 # cloud9 run at linux startup
 
 Create a file /etc/systemd/system/cloud9.service :
-```bash
+```ini
 # /etc/systemd/system/cloud9.service
 [Unit]
 Description=Cloud9 SDK
