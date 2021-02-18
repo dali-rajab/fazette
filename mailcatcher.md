@@ -1,7 +1,7 @@
 # MailCatcher run at linux startup
 
 Create a file /etc/systemd/system/mailcatcher.service :
-```bash
+```ini
 # /etc/systemd/system/mailcatcher.service
 [Unit]
 Description=Ruby MailCatcher
