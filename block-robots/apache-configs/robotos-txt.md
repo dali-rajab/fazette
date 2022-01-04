@@ -1,3 +1,4 @@
+Save this config file as `/etc/apache2/conf-available/robotos-txt.conf`
 ```apacheconf 
 <Location "/robots.txt">
         SetHandler None
@@ -5,3 +6,4 @@
 </Location>
 Alias /robots.txt /home/all-vhosts-robots.txt
 ```
+Do not forget to create the `/home/all-vhosts-robots.txt` file
